@@ -1,0 +1,73 @@
+.Navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9;
+}
+.Navbar .navbar-brand{
+    color: var(--myWhite);
+    font-size: 2rem;
+    font-family: 'Love Ya Like A Sister', cursive;
+}
+.Navbar .nav-link{
+    display: inline-block;
+    color: var(--myWhite);
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: 'Love Ya Like A Sister', cursive;
+    position: relative;
+    margin-inline: .2rem;
+}
+.Navbar .nav-link::after{
+    content: '';
+    width: 0%;
+    height: .2rem;
+    background-color: var(--myWhite);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: .375rem;
+    -webkit-border-radius: .375rem;
+    -moz-border-radius: .375rem;
+    -ms-border-radius: .375rem;
+    -o-border-radius: .375rem;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+}
+.Navbar .nav-link:hover::after{
+    width: 100%;
+}
+.Navbar .navbar{
+    border-bottom: solid .1rem var(--myWhite);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+}
+.Navbar .navbar-toggler{
+    border: var(--myWhite) 0px;
+}
+.Navbar .navbar-toggler:focus{
+    border: var(--myWhite) 0px;
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px;
+}
+.Navbar .navbar-toggler-icon{
+    color: white;
+    border: var(--myWhite);
+}
+@media (max-width:992px){
+    .Navbar .navbar .nav-item{
+        text-align: start;
+    }
+}

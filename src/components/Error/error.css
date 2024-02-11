@@ -1,0 +1,10 @@
+.error{
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0,255,4);
+background: linear-gradient(90deg, rgba(0,255,4,1) 0%, rgba(0,194,123,1) 12%, rgba(0,196,187,1) 22%, rgba(0,84,199,1) 35%, rgba(115,0,209,1) 46%, rgba(229,64,195,1) 73%, rgba(255,0,82,1) 100%);
+}

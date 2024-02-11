@@ -1,0 +1,73 @@
+.recipes .header{
+    min-height: 70vh;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-image: linear-gradient(rgba(12,3,51,0.3),rgba(12,3,51,0.3));
+}
+.recipes .header .content{
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.recipes .header .mainTitle{
+    font-family: 'Allison', cursive;
+    font-size: 10rem;
+    color: var(--myWhite);
+    font-weight: 900;
+    width: 100%;
+}
+.recipes .header .searchDiv{
+    width: 60%;
+}
+.recipes .header .searchDiv .form-control{
+    background-color: transparent;
+    color: var(--myWhite);
+}
+.recipes .header .searchDiv .form-control:focus{
+    box-shadow:rgba(218, 231, 252, 0.25) 0px 0px 0px 4px;
+    border-color: var(--myWhite);
+}
+.recipes .header .searchDiv .form-control::placeholder{
+    color: var(--myWhite);
+}
+.recipes .header .searchDiv .input-group-text{
+    cursor: pointer;
+}
+.recipes .header .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -9;
+}
+.recipes .header .overlay img{
+    width: 100%;
+    height: 100%;
+}
+@media(max-width:576px){
+    .recipes .header .searchDiv{
+        width: 90%;
+    }
+}
+/* ======================================food=============================================== */
+.recipes .food .content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.recipes .food .subTitle{
+    color: var(--myBlack);
+    font-family: 'Rubik Dirt', cursive; 
+    margin-top: 3rem;
+    width: 100%;
+    font-size: 5rem;
+    font-weight: 900;
+}

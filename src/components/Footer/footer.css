@@ -1,0 +1,6 @@
+.footer{
+    background-image: url('./footerbackground.jpg');
+    color: var(--myWhite);
+    padding: 1.5rem 0;
+    font-size: 1.2rem;
+}
