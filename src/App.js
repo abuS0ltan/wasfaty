@@ -7,6 +7,7 @@ import Recipes from './components/Recipes/Recipes.jsx';
 import FoodItems from './components/FoodItems/FoodItems.jsx';
 import Footer from './components/Footer/Footer.jsx';
 import Error from './components/Error/Error.jsx';
+import Error2 from './components/Error2/Error2.jsx';
 function App() {
   return (
     <div className="App">
@@ -16,6 +17,7 @@ function App() {
         <Route path='/home' element={<Home/>}/>
         <Route path='/recipes' element={<Recipes/>}/>
         <Route path='/fooditems' element={<FoodItems/>}/>
+        <Route path='/error2' element={<Error2/>}/>
         <Route path='/*' element={<Error/>}/>
       </Routes>
       <Footer/>

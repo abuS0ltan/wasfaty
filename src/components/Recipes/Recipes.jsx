@@ -106,7 +106,7 @@ function Recipes() {
                                                                             ele.title
                                                                         }
                                                                     </h4>
-                                                                    <Link target="_blank" className='more' to={`${ele.source_url}`}>Click to See Recipe</Link>
+                                                                    <Link target="" className='more' to='/error2'>Click to See Recipe</Link>
                                                                 </div>
                                                             </div>
                                                         </div>

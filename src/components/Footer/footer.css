@@ -3,4 +3,35 @@
     color: var(--myWhite);
     padding: 1.5rem 0;
     font-size: 1.2rem;
+    overflow: hidden;
+}
+.footer .row{
+    align-items: center;
+}
+.footer .iconDiv{
+    text-align: center;
+    width: 100%;
+    font-size: 2rem;
+}
+.footer .logo{
+    font-size: 2rem;
+    align-items: center;
+}
+.footer .icon{
+    display: inline-block;
+    color: var(--myWhite);
+    /* padding: 2rem 0; */
+    margin-left: .5rem;
+}
+.footer .copyRight{
+    text-align: start;
+}
+.footer .icon.instagram:hover{
+    color: #bc1888; 
+}
+.footer .icon.linkedin:hover{
+    color: #0077b5;
+}
+.footer .icon.email:hover{
+    color: #d10819;
 }
